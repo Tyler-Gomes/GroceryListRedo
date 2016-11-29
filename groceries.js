@@ -38,7 +38,7 @@ if(myList.indexOf(input) == -1){
 }
 function saveList() {
   var savedList = myList.toString();
-  setCookie("Slist",savedList,2);
+  setCookie("storedlist",savedList,2);
 }
 function clearList() {
 document.getElementById("listDisplay").innerHTML = "";
